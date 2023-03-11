@@ -67,7 +67,7 @@ function runCommand(command) {
   
    // reveal file command
 	if (cmd === "cmV2ZWFs") {
-      return "<a style='color: #F0F' href='canada'>canada</a>"
+      return "<a style='color: #F0F' href='canada/cmV2ZWFs.html'>canada</a>"
   }
 
 	// Help command
