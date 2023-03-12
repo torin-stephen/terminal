@@ -70,6 +70,11 @@ function runCommand(command) {
       return "<a style='color: #F0F' href='canada/cmV2ZWFs.html'>canada</a>"
   }
 
+  // reveal file command
+	if (cmd === "xterm") {
+		return "<a style='color: #F0F' href='canada/xterm.html'><b>xterm</b></a>"
+	}
+
 	// Help command
 	if (command == "help") {
     return "Available commands:<br>" +
